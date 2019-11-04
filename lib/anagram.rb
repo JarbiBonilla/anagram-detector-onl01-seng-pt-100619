@@ -1,13 +1,19 @@
 
 class Anagram
   
-  attr_accessor :word
+  attr_accessor :words
   
   def initialize(word)
-    @word = word
+    @words = words
   end
   
   def self.match
-    w
+    words.each do |word|
+      if word.match == word
+        word
+      else
+        []
+      end
+    end
  end
 end
