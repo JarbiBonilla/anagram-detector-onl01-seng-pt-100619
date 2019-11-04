@@ -8,6 +8,6 @@ class Anagram
   end
   
   def self.match
-    
+    w
  end
 end
